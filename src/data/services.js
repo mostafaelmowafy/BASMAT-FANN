@@ -7,6 +7,7 @@ import tiling6 from '../assets/images/tiling/tiling-6.webp'
 
 import plumbing1 from '../assets/images/plumbing/plumbing-1.webp'
 import plumbing2 from '../assets/images/plumbing/plumbing-2.webp'
+import plumbing3 from '../assets/images/plumbing/plumbing-3.webp'
 
 import painting1 from '../assets/images/painting/painting-1.webp'
 import painting2 from '../assets/images/painting/painting-2.webp'
@@ -18,6 +19,7 @@ import electrical2 from '../assets/images/electrical/electrical-2.webp'
 import electrical3 from '../assets/images/electrical/electrical-3.webp'
 import electrical4 from '../assets/images/electrical/electrical-4.webp'
 import electrical5 from '../assets/images/electrical/electrical-5.webp'
+import electrical6 from '../assets/images/electrical/electrical-6.webp'
 
 /**
  * الخدمات الأربعة.
@@ -48,6 +50,7 @@ export const services = [
     images: [
       { src: plumbing1, alt: 'فك وتركيب سيفون الحوض', caption: 'فك وتركيب سيفون الحوض بالعدة المناسبة لكل وصلة.' },
       { src: plumbing2, alt: 'تركيب وصلات الحوض', caption: 'ربط وصلات الحوض المعدنية بإحكام لمنع التسريب.' },
+      { src: plumbing3, alt: 'حمّام بدش علوي ويدوي', caption: 'تركيب الدش العلوي والدش اليدوي والخلاط على جدار الحمّام.' },
     ],
   },
   {
@@ -101,6 +104,7 @@ export const services = [
       { src: electrical3, alt: 'تصميم إضاءة هندسية', caption: 'تصميم إضاءة بخطوط متقاطعة يعطي السقف شكلاً مميزاً.' },
       { src: electrical4, alt: 'تركيب المفاتيح والأفياش', caption: 'تركيب المفاتيح والأفياش على الجدار بعد ضبط المستوى بالليزر.' },
       { src: electrical5, alt: 'تركيب إضاءة السقف', caption: 'تركيب إطار الإضاءة الخطية في السقف.' },
+      { src: electrical6, alt: 'غرفة بإضاءة خطية ونجفة', caption: 'غرفة بعد التشطيب بإضاءة خطية ونجفة في السقف.' },
     ],
   },
   {
