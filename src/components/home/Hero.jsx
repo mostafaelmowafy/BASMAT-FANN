@@ -1,7 +1,7 @@
-import Container from '../ui/Container'
-import ContactButtons from '../ui/ContactButtons'
-import Fingerprint from '../ui/Fingerprint'
-import heroImage from '../../assets/images/painting/painting-4.webp'
+import Container from '../ui/Container';
+import ContactButtons from '../ui/ContactButtons';
+import Fingerprint from '../ui/Fingerprint';
+import heroImage from '../../assets/images/painting/painting-4.webp';
 
 export default function Hero() {
   return (
@@ -16,8 +16,9 @@ export default function Hero() {
             ونصلح ما بناه غيرنا.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-8 text-navy-100 sm:text-lg">
-            سباكة وأصباغ وكهرباء وبلاط في مكان واحد. ننفذ العمل كاملاً من البداية، أو نتولى
-            الصيانة والإصلاح لأي أعمال قائمة حتى لو لم ننفذها نحن.
+            سباكة وأصباغ وكهرباء و السيراميك والبورسلين في مكان واحد. ننفذ العمل
+            كاملاً من البداية، أو نتولى الصيانة والإصلاح لأي أعمال قائمة حتى لو
+            لم ننفذها نحن.
           </p>
           <ContactButtons variant="onDark" className="mt-8" />
         </div>
@@ -37,5 +38,5 @@ export default function Hero() {
         </div>
       </Container>
     </section>
-  )
+  );
 }
