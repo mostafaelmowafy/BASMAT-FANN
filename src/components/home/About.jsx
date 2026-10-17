@@ -1,7 +1,7 @@
-import Container from '../ui/Container'
-import SectionHeading from '../ui/SectionHeading'
-import { CheckIcon } from '../ui/Icons'
-import { site } from '../../data/site'
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
+import { CheckIcon } from '../ui/Icons';
+import { site } from '../../data/site';
 
 const modes = [
   {
@@ -12,7 +12,7 @@ const modes = [
     title: 'صيانة لأي أعمال',
     text: 'نكشف العطل ونصلحه، سواء كانت الأعمال من تنفيذنا أو من تنفيذ غيرنا.',
   },
-]
+];
 
 export default function About() {
   return (
@@ -21,8 +21,8 @@ export default function About() {
         <div>
           <SectionHeading title={`من نحن`} />
           <p className="mt-6 text-base leading-8 text-navy-900/80">
-            {site.nameAr} شركة مقاولات في {site.country}. نقدم أربع خدمات أساسية للمنازل
-            والمحلات: السباكة والأصباغ والكهرباء والبلاط.
+            {site.nameAr} شركة مقاولات في {site.country}. نقدم أربع خدمات أساسية
+            للمنازل والمحلات: السباكة والأصباغ والكهرباء و السيراميك والبورسلين.
           </p>
           <p className="mt-4 text-base leading-8 text-navy-900/80">
             تتعامل مع جهة واحدة بدل أربع جهات، وتتواصل مباشرة مع من ينفذ العمل.
@@ -31,18 +31,23 @@ export default function About() {
 
         <ul className="grid gap-4">
           {modes.map((m) => (
-            <li key={m.title} className="flex gap-4 rounded-2xl border border-navy-100 bg-paper p-5">
+            <li
+              key={m.title}
+              className="flex gap-4 rounded-2xl border border-navy-100 bg-paper p-5"
+            >
               <span className="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-500 text-navy-950">
                 <CheckIcon className="h-5 w-5" />
               </span>
               <div>
                 <h3 className="text-xl font-bold text-navy-900">{m.title}</h3>
-                <p className="mt-1 text-[15px] leading-7 text-navy-900/75">{m.text}</p>
+                <p className="mt-1 text-[15px] leading-7 text-navy-900/75">
+                  {m.text}
+                </p>
               </div>
             </li>
           ))}
         </ul>
       </Container>
     </section>
-  )
+  );
 }
